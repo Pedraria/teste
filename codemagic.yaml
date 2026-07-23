@@ -8,7 +8,10 @@ workflows:
     scripts:
       - name: Build iOS App
         script: |
-          xcodebuild build -project ControleTerritorios.xcodeproj -scheme ControleTerritorios -sdk iphoneos CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO
+          xcodebuild build             -project ControleTerritorios.xcodeproj             -scheme ControleTerritorios             -sdk iphoneos             -derivedDataPath build             CODE_SIGNING_ALLOWED=NO             CODE_SIGNING_REQUIRED=NO
+      - name: Zip Artifacts
+        script: |
+          cd build/Build/Products/Debug-iphoneos
+          zip -r $CM_BUILD_DIR/ControleTerritorios.zip ControleTerritorios.app
     artifacts:
-      - build/ios/ipa/*.ipa
-      - build/Release-iphoneos/*.app
+      - "*.zip"
