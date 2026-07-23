@@ -21,6 +21,7 @@
 		110000032C4E000000000000 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		110000042C4E000000000000 /* DetalhesTerritorioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesTerritorioView.swift; sourceTree = "<group>"; };
 		110000052C4E000000000000 /* NovoTerritorioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoTerritorioView.swift; sourceTree = "<group>"; };
+		110000062C4E000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 				110000032C4E000000000000 /* DashboardView.swift */,
 				110000042C4E000000000000 /* DetalhesTerritorioView.swift */,
 				110000052C4E000000000000 /* NovoTerritorioView.swift */,
+				110000062C4E000000000000 /* Info.plist */,
 			);
 			path = ControleTerritorios;
 			sourceTree = "<group>";
@@ -137,6 +139,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
+				INFOPLIST_FILE = ControleTerritorios/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.controle.territorios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -151,6 +154,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
+				INFOPLIST_FILE = ControleTerritorios/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.controle.territorios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
