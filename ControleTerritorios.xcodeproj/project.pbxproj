@@ -1,0 +1,199 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110000012C4E000100000000 /* ControleTerritoriosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000012C4E000000000000 /* ControleTerritoriosApp.swift */; };
+		110000022C4E000100000000 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000022C4E000000000000 /* Models.swift */; };
+		110000032C4E000100000000 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000032C4E000000000000 /* DashboardView.swift */; };
+		110000042C4E000100000000 /* DetalhesTerritorioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000042C4E000000000000 /* DetalhesTerritorioView.swift */; };
+		110000052C4E000100000000 /* NovoTerritorioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000052C4E000000000000 /* NovoTerritorioView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110000002C4E000000000000 /* ControleTerritorios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControleTerritorios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110000012C4E000000000000 /* ControleTerritoriosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControleTerritoriosApp.swift; sourceTree = "<group>"; };
+		110000022C4E000000000000 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		110000032C4E000000000000 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		110000042C4E000000000000 /* DetalhesTerritorioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesTerritorioView.swift; sourceTree = "<group>"; };
+		110000052C4E000000000000 /* NovoTerritorioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoTerritorioView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110000002C4E000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110000002C4E000000000002 /* MainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				110000002C4E000000000003 /* ControleTerritorios */,
+				110000002C4E000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110000002C4E000000000003 /* ControleTerritorios */ = {
+			isa = PBXGroup;
+			children = (
+				110000012C4E000000000000 /* ControleTerritoriosApp.swift */,
+				110000022C4E000000000000 /* Models.swift */,
+				110000032C4E000000000000 /* DashboardView.swift */,
+				110000042C4E000000000000 /* DetalhesTerritorioView.swift */,
+				110000052C4E000000000000 /* NovoTerritorioView.swift */,
+			);
+			path = ControleTerritorios;
+			sourceTree = "<group>";
+		};
+		110000002C4E000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110000002C4E000000000000 /* ControleTerritorios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110000002C4E000000000005 /* ControleTerritorios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110000002C4E000000000008 /* Build configuration list for PBXNativeTarget "ControleTerritorios" */;
+			buildPhases = (
+				110000002C4E000000000006 /* Sources */,
+				110000002C4E000100000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControleTerritorios;
+			productName = ControleTerritorios;
+			productReference = 110000002C4E000000000000 /* ControleTerritorios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110000002C4E000000000007 /* ProjectObject */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					110000002C4E000000000005 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 110000002C4E000000000009 /* Build configuration list for PBXProject "ControleTerritorios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 110000002C4E000000000002 /* MainGroup */;
+			productRefGroup = 110000002C4E000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110000002C4E000000000005 /* ControleTerritorios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110000002C4E000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110000012C4E000100000000 /* ControleTerritoriosApp.swift in Sources */,
+				110000022C4E000100000000 /* Models.swift in Sources */,
+				110000032C4E000100000000 /* DashboardView.swift in Sources */,
+				110000042C4E000100000000 /* DetalhesTerritorioView.swift in Sources */,
+				110000052C4E000100000000 /* NovoTerritorioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		110000002C4E00000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.controle.territorios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110000002C4E00000000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.controle.territorios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		110000002C4E00000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		110000002C4E00000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110000002C4E000000000008 /* Build configuration list for PBXNativeTarget "ControleTerritorios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110000002C4E00000000000A /* Debug */,
+				110000002C4E00000000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110000002C4E000000000009 /* Build configuration list for PBXProject "ControleTerritorios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110000002C4E00000000000C /* Debug */,
+				110000002C4E00000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 110000002C4E000000000007 /* ProjectObject */;
+}

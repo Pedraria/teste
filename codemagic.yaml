@@ -1,0 +1,14 @@
+workflows:
+  ios-swiftui-workflow:
+    name: iOS SwiftUI Build
+    max_build_duration: 120
+    instance_type: mac_mini_m1
+    environment:
+      xcode: latest
+    scripts:
+      - name: Build iOS App
+        script: |
+          xcodebuild build -project ControleTerritorios.xcodeproj -scheme ControleTerritorios -sdk iphoneos CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - build/Release-iphoneos/*.app
